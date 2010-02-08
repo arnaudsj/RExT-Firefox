@@ -1,0 +1,90 @@
+﻿<!-- Main Window -->
+<!ENTITY RExT.main.title                        "Regular Expressions Tester">
+<!ENTITY RExT.main.expression                   "Expresión">
+<!ENTITY RExT.main.save                         "Guardar">
+<!ENTITY RExT.main.caseSensitive                "Sensitivo a mayúsculas">
+<!ENTITY RExT.main.global                       "Global">
+<!ENTITY RExT.main.multiline                    "Multilínea">
+<!ENTITY RExT.main.replaceBy                    "Reemplace por">
+<!ENTITY RExT.main.test                         "Prueba">
+<!ENTITY RExT.main.copyRegExpToClipboard        "Copiar">
+<!ENTITY RExT.main.close                        "Cerrar">
+<!ENTITY RExT.main.regularExpression            "Expresión regular">
+<!ENTITY RExT.main.searchText                   "Búsqueda de texto">
+<!ENTITY RExT.main.result                       "Resultado">
+<!ENTITY RExT.main.insertSavedRegExp            "Introduzca la expresión regular guardada">
+<!ENTITY RExT.main.updateWhileWriting           "Actualiza mientras escribe">
+
+<!-- Settings -->
+<!ENTITY RExT.settings.title                    "Opciones del Regular Expressions Tester">
+<!ENTITY RExT.settings.general                  "General">
+<!ENTITY RExT.settings.display                  "Despliega">
+<!ENTITY RExT.settings.savedRegExps             "Expresiones guardadas">
+<!ENTITY RExT.settings.updateWhileWriting       "Actualiza mientras escribe">
+<!ENTITY RExT.settings.autoCloseBrackets        "Llaves de Cierre automático">
+<!ENTITY RExT.settings.matches                  "Resultados">
+<!ENTITY RExT.settings.highlightTextColor       "Color de texto">
+<!ENTITY RExT.settings.highlightBackgroundColor "Color del fondo">
+<!ENTITY RExT.settings.specialCharacters        "Caracteres especiales">
+<!ENTITY RExT.settings.displayLineBreaks        "Desplegar fin de línea">
+<!ENTITY RExT.settings.displaySpaces            "Desplegar espacios">
+<!ENTITY RExT.settings.displayTabs              "Desplegar pestañas">
+<!ENTITY RExT.settings.highlightSpecialChars    "Caracteres especiales resaltados">
+<!ENTITY RExT.settings.savedRegExpName          "Nombre">
+<!ENTITY RExT.settings.savedRegExpExpression    "Expresión">
+<!ENTITY RExT.settings.savedRegExpCaseSensitive "Sensitivo a mayúsculas">
+<!ENTITY RExT.settings.savedRegExpGlobal        "Global">
+<!ENTITY RExT.settings.savedRegExpMultiline     "Multilínea">
+<!ENTITY RExT.settings.savedRegExpReplaceBy     "Remplace por">
+<!ENTITY RExT.settings.addRegExp                "Agregar">
+<!ENTITY RExT.settings.editRegExp               "Editar">
+<!ENTITY RExT.settings.removeRegExp             "Eliminar">
+<!ENTITY RExT.settings.reset                    "Cambiar...">
+
+<!-- About -->
+<!ENTITY RExT.about.title                       "Sobre Regular Expressions Tester">
+<!ENTITY RExT.about.version                     "Versión">
+<!ENTITY RExT.about.author                      "Autor">
+<!ENTITY RExT.about.contact                     "Contacto">
+<!ENTITY RExT.about.translation                 "Traducción">
+<!ENTITY RExT.about.chinese                     "Chino">
+<!ENTITY RExT.about.czech                       "Checo">
+<!ENTITY RExT.about.dutch                       "Holandés">
+<!ENTITY RExT.about.english                     "Inglés">
+<!ENTITY RExT.about.french                      "Francés">
+<!ENTITY RExT.about.german                      "Alemán">
+<!ENTITY RExT.about.polish                      "Polaco">
+<!ENTITY RExT.about.portuguese                  "Portugués">
+<!ENTITY RExT.about.russian                     "Ruso">
+<!ENTITY RExT.about.spanish                     "Español">
+<!ENTITY RExT.about.info                        "Información">
+<!ENTITY RExT.about.RExTHelp                    "Ayuda para Regular Expressions Tester">
+<!ENTITY RExT.about.regExpsHelp                 "Ayuda para expresiones regulares">
+
+<!-- Toolbar -->
+<!ENTITY RExT.toolbar.validateExpression        "Validación de expresiones regulares">
+
+<!-- Tooltips -->
+<!ENTITY RExT.tooltip.save                      "Abre un cuadro de diálogo para guardar la expresión regular actual">
+<!ENTITY RExT.tooltip.enabled                   "Habilitado">
+<!ENTITY RExT.tooltip.disabled                  "Desabilitado">
+<!ENTITY RExT.tooltip.example                   "Ejemplo">
+<!ENTITY RExT.tooltip.expression                "Expresión">
+<!ENTITY RExT.tooltip.replacement               "Sustitución">
+<!ENTITY RExT.tooltip.result                    "Resultado">
+<!ENTITY RExT.tooltip.caseSensitiveEnabled      "Coincidencias del caso exacto">
+<!ENTITY RExT.tooltip.caseSensitiveDisabled     "Ignorar caso">
+<!ENTITY RExT.tooltip.globalEnabled             "Coincidencia con todas las ocurrencias">
+<!ENTITY RExT.tooltip.globalDisabled            "Coincidencias sólo la primera ocurrencia">
+<!ENTITY RExT.tooltip.multilineEnabled          "Texto multilínea se tratado como varias líneas ( '^' y '$' coincidencia en cada línea)">
+<!ENTITY RExT.tooltip.multilineDisabled         "Texto multilínea se tratado como una cadena grande ('^' y '$' coincidencias al inicio y al final de la cadena)">
+<!ENTITY RExT.tooltip.replacementEnabled        "Las coincidencias serán sustituidas por la cadena reemplazada (Backreferences $0 - $9 pueden ser utilizadas)">
+<!ENTITY RExT.tooltip.replacementDisabled       "Las coincidencias no serán sustituidas">
+<!ENTITY RExT.tooltip.insertSavedRegExp         "Lista de las expresiones regulares guardadas que pueden ser insertadas">
+<!ENTITY RExT.tooltip.updateWhileWriting        "Alterna la actualización automática de los resultados mientras se escribe">
+<!ENTITY RExT.tooltip.autoCloseBrackets         "Alterna el cierre automático de paréntesis al introducir una expresión regular">
+<!ENTITY RExT.tooltip.test                      "Prueba de la actual expresión regular">
+<!ENTITY RExT.tooltip.copy                      "Copia la actual expresión regular en el portapapeles">
+<!ENTITY RExT.tooltip.close                     "Cierra la ventana">
+<!ENTITY RExT.tooltip.duration                  "Muestra la duración actual requerida para ejecución de la expresión regular">
+<!ENTITY RExT.tooltip.matches                   "Muestra el número de coincidencias para la expresión regular actual">

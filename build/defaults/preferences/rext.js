@@ -1,0 +1,11 @@
+﻿pref('extensions.regexptester@sebastianzartner.ath.cx.description','chrome://rext/locale/rext.properties');
+pref('extensions.rext.updateWhileWriting',true);
+pref('extensions.rext.autoCloseBrackets',true);
+pref('extensions.rext.highlightBackgroundColor','#FFFF00');
+pref('extensions.rext.highlightTextColor','#3366FF');
+pref('extensions.rext.displayLineBreaks',true);
+pref('extensions.rext.displaySpaces',false);
+pref('extensions.rext.displayTabs',false);
+pref('extensions.rext.highlightSpecialChars',false);
+pref('extensions.rext.specialCharsBackgroundColor','#99FF99');
+pref('extensions.rext.findRegExp',false);

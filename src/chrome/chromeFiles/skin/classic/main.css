@@ -1,0 +1,17 @@
+#escapeCharHelper option {
+  background-color: #f0f0f0;
+}
+
+#regExp, #results {
+  margin: 2px 4px;
+  padding: 2px;
+  white-space : pre-wrap;
+  background-color: white;
+  border: 1px solid #7f9db9;
+  font-family: Courier New,serif;
+  font-size : 10pt;
+}
+
+#savedRegExps {
+  min-width: 100px;
+}

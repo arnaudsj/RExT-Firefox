@@ -1,0 +1,15 @@
+#!/bin/bash
+
+APP_NAME=rext
+DIST_FILENAME=RExT_1.1.6.14
+
+rm build/chrome/$APP_NAME.jar
+cd src
+zip -0 -r ../build/chrome/$APP_NAME.jar `find . -path '*DS_Store*' -prune -o -type f -print | grep -v \~`
+cd ..
+
+# Generate the XPI
+cd build
+rm ../dist/$DIST_FILENAME.xpi
+zip -r ../dist/$DIST_FILENAME.xpi `find . -path '*DS_Store*' -prune -o -type f -print | grep -v \~`
+cd ..

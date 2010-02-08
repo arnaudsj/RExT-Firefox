@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE window SYSTEM "chrome://rext/locale/rext.dtd">
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://rext/skin/general.css" type="text/css"?>
+<?xml-stylesheet href="chrome://rext/skin/settings.css" type="text/css"?>
+<dialog 
+  title="&RExT.settings.title;"
+  orient="vertical"
+  autostretch="always"
+  buttons="accept,extra1,cancel"
+  buttonlabelextra1="&RExT.settings.reset;"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://rext/content/general.js"/>
+  <script type="application/x-javascript" src="chrome://rext/content/settings.js"/>
+  <script type="application/x-javascript" src="chrome://rext/content/savedRegExps.js"/>
+  <script type="application/x-javascript" src="chrome://rext/content/settingsRegExps.js"/>
+
+  <tabbox>
+    <tabs>
+      <tab label="&RExT.settings.general;"/>
+      <tab label="&RExT.settings.display;"/>
+      <tab label="&RExT.settings.savedRegExps;"/>
+    </tabs>
+    <tabpanels>
+      <tabpanel id="generalTab">
+        <vbox>
+          <checkbox id="updateWhileWriting" label="&RExT.settings.updateWhileWriting;" tooltiptext="&RExT.tooltip.updateWhileWriting;" />
+          <checkbox id="autoCloseBrackets" label="&RExT.settings.autoCloseBrackets;" tooltiptext="&RExT.tooltip.autoCloseBrackets;" />
+        </vbox>
+      </tabpanel>
+      <tabpanel id="displayTab">
+        <vbox flex="1">
+          <groupbox valign="middle" orient="vertical">
+            <caption label="&RExT.settings.matches;" />
+            <hbox>
+              <label control="highlightTextColor" value="&RExT.settings.highlightTextColor;" class="optionLabel" />
+              <colorpicker id="highlightTextColor" type="button" />
+            </hbox>
+            <hbox>
+              <label control="highlightBackgroundColor" value="&RExT.settings.highlightBackgroundColor;" class="optionLabel" />
+              <colorpicker id="highlightBackgroundColor" type="button" />
+            </hbox>
+          </groupbox>
+          <groupbox valign="middle" orient="vertical">
+            <caption label="&RExT.settings.specialCharacters;" />
+            <checkbox id="displayLineBreaks" label="&RExT.settings.displayLineBreaks;" />
+            <checkbox id="displaySpaces" label="&RExT.settings.displaySpaces;" />
+            <checkbox id="displayTabs" label="&RExT.settings.displayTabs;" />
+            <hbox>
+              <checkbox id="highlightSpecialChars" label="&RExT.settings.highlightSpecialChars;" />
+              <colorpicker id="specialCharsBackgroundColor" type="button" />
+            </hbox>
+          </groupbox>
+        </vbox>
+      </tabpanel>
+      <tabpanel id="savedRegExpsTab">
+        <hbox flex="1">
+          <tree id="savedRegExps" datasources="chrome://rext/content/savedRegExps.rdf" ref="http://sebastianzartner.de/savedRegExps#" seltype="single" hidecolumnpicker="true" flex="1" flags="dont-build-content">
+            <treecols>
+              <treecol id="savedRegExpName" label="&RExT.settings.savedRegExpName;" flex="2" persist="width ordinal hidden" primary="true" sort="rdf:http://sebastianzartner.de/RExT/name" sortDirection="ascending" sortActive="true" class="sortDirectionIndicator" />
+              <splitter class="tree-splitter" />
+              <treecol id="savedRegExpExpression" label="&RExT.settings.savedRegExpExpression;" flex="4" persist="width ordinal hidden" sort="rdf:http://sebastianzartner.de/RExT/expression" class="sortDirectionIndicator" />
+            </treecols>
+            <template>
+              <rule>
+                <treechildren>
+                  <treeitem uri="rdf:*">
+                    <treerow>
+                      <treecell label="rdf:http://sebastianzartner.de/RExT/name"/>
+                      <treecell label="rdf:http://sebastianzartner.de/RExT/expression"/>
+                    </treerow>
+                  </treeitem>
+                </treechildren>
+              </rule>
+            </template>
+          </tree>
+          <vbox>
+            <button id="addExpression" label="&RExT.settings.addRegExp;" />
+            <button id="editExpression" label="&RExT.settings.editRegExp;" />
+            <button id="removeExpression" label="&RExT.settings.removeRegExp;" />
+          </vbox>
+        </hbox>
+      </tabpanel>
+    </tabpanels>
+  </tabbox>
+</dialog>

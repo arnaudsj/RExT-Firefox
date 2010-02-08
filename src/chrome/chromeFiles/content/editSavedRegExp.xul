@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE window SYSTEM "chrome://rext/locale/rext.dtd">
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://rext/skin/general.css" type="text/css"?>
+<dialog 
+  title="&RExT.settings.title;"
+  orient="vertical"
+  autostretch="always"
+  buttons="accept,cancel"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://rext/content/general.js"/>
+  <script type="application/x-javascript" src="chrome://rext/content/savedRegExps.js"/>
+  <script type="application/x-javascript" src="chrome://rext/content/editSavedRegExp.js"/>
+
+  <vbox>
+    <hbox>
+      <label control="savedRegExpName" value="&RExT.settings.savedRegExpName;" class="optionLabel" />
+      <textbox id="savedRegExpName" flex="1" style="width:400px;" />
+    </hbox>
+    <hbox>
+      <label control="savedRegExpExpression" value="&RExT.settings.savedRegExpExpression;" class="optionLabel" />
+      <textbox id="savedRegExpExpression" flex="1" />
+    </hbox>
+    <checkbox id="savedRegExpCaseSensitive" label="&RExT.settings.savedRegExpCaseSensitive;" />
+    <checkbox id="savedRegExpGlobal" label="&RExT.settings.savedRegExpGlobal;" />
+    <checkbox id="savedRegExpMultiline" label="&RExT.settings.savedRegExpMultiline;" />
+    <hbox>
+      <checkbox id="savedRegExpReplace" label="&RExT.settings.savedRegExpReplaceBy;" />
+      <textbox id="savedRegExpReplacement" flex="1" />
+    </hbox>
+  </vbox>
+</dialog>

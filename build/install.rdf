@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <RDF:Description about="urn:mozilla:install-manifest">
+    <em:id>regexptester@sebastianzartner.ath.cx</em:id>
+    <em:version>1.1.6.14</em:version>
+    <em:type>2</em:type>
+
+    <!-- Mozilla Firefox -->
+    <em:targetApplication>
+      <RDF:Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>4.0</em:maxVersion>
+      </RDF:Description>
+    </em:targetApplication>
+
+    <em:name>Regular Expressions Tester</em:name>
+    <em:description>Testing Tool for regular expressions</em:description>
+    <em:creator>Sebastian Zartner</em:creator>
+    <em:homepageURL>http://sebastianzartner.de/firefoxExtensions/RExT/</em:homepageURL>
+    <em:translator>Li Qingtao</em:translator>
+    <em:translator>Kristian Vrhel</em:translator>
+    <em:translator>Heidrun Berchtold</em:translator>
+    <em:translator>Wojtek Jarzecki, Krzysztof Cislo</em:translator>
+    <em:translator>Evgeny Alekhin</em:translator>
+    <em:translator>Roman Marker</em:translator>
+    <em:translator>Carla Gea</em:translator>
+    <em:translator>Aline Ludke</em:translator>
+    <em:translator>Laurent Barbareau</em:translator>
+
+    <em:optionsURL>chrome://rext/content/settings.xul</em:optionsURL>
+    <em:aboutURL>chrome://rext/content/about.xul</em:aboutURL>
+    <em:iconURL>chrome://rext/skin/icon.png</em:iconURL>
+  </RDF:Description>      
+</RDF:RDF>

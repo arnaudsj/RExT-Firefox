@@ -1,0 +1,18 @@
+html,body,p {
+  height:      100%;
+  margin:      0;
+  padding:     0;
+  overflow:    auto;
+  font-family: Courier New,serif;
+  font-size:   10pt;
+}
+
+p.normal {
+  margin:  0;
+  padding: 0;
+}
+
+p.error {
+  font-weight: bold;
+  color:       #ff0000;
+}

@@ -1,0 +1,90 @@
+﻿<!-- Main Window -->
+<!ENTITY RExT.main.title                        "Regular Expressions Tester">
+<!ENTITY RExT.main.expression                   "Ausdruck">
+<!ENTITY RExT.main.save                         "Speichern...">
+<!ENTITY RExT.main.caseSensitive                "Groß-/Kleinschreibung beachten">
+<!ENTITY RExT.main.global                       "Global">
+<!ENTITY RExT.main.multiline                    "Mehrzeilig">
+<!ENTITY RExT.main.replaceBy                    "Ersetzen durch">
+<!ENTITY RExT.main.test                         "Test">
+<!ENTITY RExT.main.copyRegExpToClipboard        "Kopieren">
+<!ENTITY RExT.main.close                        "Schließen">
+<!ENTITY RExT.main.regularExpression            "Regulärer Ausdruck">
+<!ENTITY RExT.main.searchText                   "Suchtext">
+<!ENTITY RExT.main.result                       "Ergebnis">
+<!ENTITY RExT.main.insertSavedRegExp            "Gespeicherten Ausdruck einfügen">
+<!ENTITY RExT.main.updateWhileWriting           "Während der Eingabe aktualisieren">
+
+<!-- Settings -->
+<!ENTITY RExT.settings.title                    "Regular Expressions Tester Optionen">
+<!ENTITY RExT.settings.general                  "Allgemein">
+<!ENTITY RExT.settings.display                  "Anzeige">
+<!ENTITY RExT.settings.savedRegExps             "Gespeicherte Ausdrücke">
+<!ENTITY RExT.settings.updateWhileWriting       "Während der Eingabe aktualisieren">
+<!ENTITY RExT.settings.autoCloseBrackets        "Klammern automatisch schließen">
+<!ENTITY RExT.settings.matches                  "Suchtreffer">
+<!ENTITY RExT.settings.highlightTextColor       "Textfarbe">
+<!ENTITY RExT.settings.highlightBackgroundColor "Hintergrundfarbe">
+<!ENTITY RExT.settings.specialCharacters        "Sonderzeichen">
+<!ENTITY RExT.settings.displayLineBreaks        "Zeilenumbrüche anzeigen">
+<!ENTITY RExT.settings.displaySpaces            "Leerzeichen anzeigen">
+<!ENTITY RExT.settings.displayTabs              "Tabulatoren anzeigen">
+<!ENTITY RExT.settings.highlightSpecialChars    "Sonderzeichen hervorheben">
+<!ENTITY RExT.settings.savedRegExpName          "Name">
+<!ENTITY RExT.settings.savedRegExpExpression    "Ausdruck">
+<!ENTITY RExT.settings.savedRegExpCaseSensitive "Groß-/Kleinschreibung beachten">
+<!ENTITY RExT.settings.savedRegExpGlobal        "Global">
+<!ENTITY RExT.settings.savedRegExpMultiline     "Mehrzeilig">
+<!ENTITY RExT.settings.savedRegExpReplaceBy     "Ersetzen durch">
+<!ENTITY RExT.settings.addRegExp                "Hinzufügen">
+<!ENTITY RExT.settings.editRegExp               "Bearbeiten">
+<!ENTITY RExT.settings.removeRegExp             "Entfernen">
+<!ENTITY RExT.settings.reset                    "Zurücksetzen...">
+
+<!-- About -->
+<!ENTITY RExT.about.title                       "Über Regular Expressions Tester">
+<!ENTITY RExT.about.version                     "Version">
+<!ENTITY RExT.about.author                      "Autor">
+<!ENTITY RExT.about.contact                     "Kontakt">
+<!ENTITY RExT.about.translation                 "Übersetzung">
+<!ENTITY RExT.about.chinese                     "Chinesisch">
+<!ENTITY RExT.about.czech                       "Tschechisch">
+<!ENTITY RExT.about.dutch                       "Niederländisch">
+<!ENTITY RExT.about.english                     "Englisch">
+<!ENTITY RExT.about.french                      "Französisch">
+<!ENTITY RExT.about.german                      "Deutsch">
+<!ENTITY RExT.about.polish                      "Polnisch">
+<!ENTITY RExT.about.portuguese                  "Portugiesisch">
+<!ENTITY RExT.about.russian                     "Russisch">
+<!ENTITY RExT.about.spanish                     "Spanisch">
+<!ENTITY RExT.about.info                        "Infos">
+<!ENTITY RExT.about.RExTHelp                    "Hilfe zu Regular Expressions Tester">
+<!ENTITY RExT.about.regExpsHelp                 "Hilfe zu regulären Ausdrücken">
+
+<!-- Toolbar -->
+<!ENTITY RExT.toolbar.validateExpression        "Validierung von regulären Ausdrücken">
+
+<!-- Tooltips -->
+<!ENTITY RExT.tooltip.save                      "Aktuellen regulären Ausdruck speichern">
+<!ENTITY RExT.tooltip.enabled                   "Aktiviert">
+<!ENTITY RExT.tooltip.disabled                  "Deaktiviert">
+<!ENTITY RExT.tooltip.example                   "Beispiel">
+<!ENTITY RExT.tooltip.expression                "Ausdruck">
+<!ENTITY RExT.tooltip.replacement               "Ersetzung">
+<!ENTITY RExT.tooltip.result                    "Ergebnis">
+<!ENTITY RExT.tooltip.caseSensitiveEnabled      "Groß-/Kleinschreibung wird beachtet">
+<!ENTITY RExT.tooltip.caseSensitiveDisabled     "Ignoriert Groß-/Kleinschreibung">
+<!ENTITY RExT.tooltip.globalEnabled             "Findet alle Vorkommen">
+<!ENTITY RExT.tooltip.globalDisabled            "Findet nur das erste Vorkommen">
+<!ENTITY RExT.tooltip.multilineEnabled          "Jede Zeile unterscheiden ('^' und '$' treffen auf jede Zeile zu)">
+<!ENTITY RExT.tooltip.multilineDisabled         "Mehrzeiliger Text wird als eine zusammenhängende Zeichenkette behandelt ('^' und '$' treffen den Start und das Ende der Zeichenkette)">
+<!ENTITY RExT.tooltip.replacementEnabled        "Treffer werden durch die Ersetzungszeichenkette ersetzt (Backreferences $0 - $9 können verwendet werden)">
+<!ENTITY RExT.tooltip.replacementDisabled       "Treffer werden nicht ersetzt">
+<!ENTITY RExT.tooltip.insertSavedRegExp         "Liste der gespeicherten regulären Ausdrücke, die eingefügt werden können">
+<!ENTITY RExT.tooltip.updateWhileWriting        "(De-)aktiviert die automatische Aktualisierung der Ergebnisse während des Schreibens">
+<!ENTITY RExT.tooltip.autoCloseBrackets         "(De-)aktiviert das automatische Schließen von Klammern bei der Eingabe eines regulären Ausdrucks">
+<!ENTITY RExT.tooltip.test                      "Testet den aktuellen regulären Ausdruck">
+<!ENTITY RExT.tooltip.copy                      "Kopiert den aktuellen regulären Ausdruck in die Zwischenablage">
+<!ENTITY RExT.tooltip.close                     "Schließt dieses Fenster">
+<!ENTITY RExT.tooltip.duration                  "Zeigt die Dauer der Ausführung des aktuellen regulären Ausdrucks an">
+<!ENTITY RExT.tooltip.matches                   "Zeigt die Anzahl an Treffern für den aktuellen regulären Ausdruck an">

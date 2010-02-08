@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE window SYSTEM "chrome://rext/locale/rext.dtd">
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://rext/skin/general.css" type="text/css"?>
+<?xml-stylesheet href="chrome://rext/skin/about.css" type="text/css"?>
+<window class="dialog"
+	title="&RExT.about.title;"
+	orient="vertical"
+	autostretch="always"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        xmlns:html="http://www.w3.org/1999/xhtml">
+
+  <script type="application/x-javascript" src="chrome://rext/content/general.js"/>
+  <script type="application/x-javascript" src="chrome://rext/content/about.js"/>
+
+  <groupbox align="top" orient="horizontal" id="aboutGroup">
+    <vbox>
+      <hbox>
+        <vbox>
+          <text id="title" value="" />
+          <hbox id="versionContainer">
+            <text value="&RExT.about.version; " />
+            <text id="version" value="" />
+          </hbox>
+          <separator class="thin" />
+          <text value="&RExT.about.author;" class="subtitle" />
+          <text id="author" value="Sebastian Zartner" />
+          <text value="&RExT.about.contact;" class="subtitle" />
+          <text value="sebastianzartner@gmx.de" id="email" class="link" />
+        </vbox>
+        <seperator orient="vertical" flex="1" />
+        <vbox>
+          <image src="chrome://rext/skin/logo.png" id="logo" />
+        </vbox>
+      </hbox>
+      <separator class="thin" />
+      <hbox>
+        <vbox>
+          <text value="&RExT.about.translation;" class="subtitle" />
+          <text value="&RExT.about.chinese;: Li Qingtao" />
+          <text value="&RExT.about.czech;: Kristian Vrhel" />
+          <text value="&RExT.about.dutch;: Heidrun Berchtold" />
+          <text value="&RExT.about.french;: Laurent Barbareau" />
+          <text value="&RExT.about.english;: Sebastian Zartner" />
+          <text value="&RExT.about.german;: Sebastian Zartner" />
+          <text value="&RExT.about.polish;: Wojtek Jarzęcki, Krzysztof Cisło" />
+          <text value="&RExT.about.portuguese;: Aline Ludke" />
+          <text value="&RExT.about.russian;: Evgeny Alekhin, Roman Marker" />
+          <text value="&RExT.about.spanish;: Carla Gea" />
+        </vbox>
+        <separator orient="vertical" flex="1" />
+        <vbox style="text-align: right;">
+          <text value="&RExT.about.info;" class="subtitle" />
+          <text value="&RExT.about.RExTHelp;" id="RExTHelp" class="link" />
+          <text value="&RExT.about.regExpsHelp;" id="regExpHelp" class="link" />
+        </vbox>
+      </hbox>
+    </vbox>
+  </groupbox>
+  <hbox>
+    <spacer flex="1" />
+    <button label="OK" oncommand="window.close();" />
+  </hbox>
+</window>

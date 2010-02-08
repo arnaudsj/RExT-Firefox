@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:re="http://sebastianzartner.de/RExT/">
+  <rdf:Seq rdf:about="http://sebastianzartner.de/savedRegExps#">
+    <rdf:li rdf:resource="http://sebastianzartner.de/savedRegExps#Email" />
+    <rdf:li rdf:resource="http://sebastianzartner.de/savedRegExps#IP" />
+    <rdf:li rdf:resource="http://sebastianzartner.de/savedRegExps#Link" />
+    <rdf:li rdf:resource="http://sebastianzartner.de/savedRegExps#URL" />
+  </rdf:Seq>
+
+  <rdf:Description rdf:about="http://sebastianzartner.de/savedRegExps#Email">
+    <re:name>Email</re:name>
+    <re:expression><![CDATA[^[a-z0-9_\-]+(\.[_a-z0-9\-]+)*@([_a-z0-9\-]+\.)+([a-z]{2}|aero|arpa|biz|com|coop|edu|gov|info|int|jobs|mil|museum|name|nato|net|org|pro|travel)$]]></re:expression>
+    <re:caseSensitive>0</re:caseSensitive>
+    <re:global>0</re:global>
+    <re:multiline>0</re:multiline>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://sebastianzartner.de/savedRegExps#IP">
+    <re:name>IP</re:name>
+    <re:expression><![CDATA[^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$]]></re:expression>
+    <re:caseSensitive>0</re:caseSensitive>
+    <re:global>0</re:global>
+    <re:multiline>0</re:multiline>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://sebastianzartner.de/savedRegExps#Link">
+    <re:name>Link</re:name>
+    <re:expression><![CDATA[<a[^>]*href=\"[^\s\"]+\"[^>]*>[^<]*<\/a>]]></re:expression>
+    <re:caseSensitive>0</re:caseSensitive>
+    <re:global>1</re:global>
+    <re:multiline>0</re:multiline>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://sebastianzartner.de/savedRegExps#URL">
+    <re:name>URL</re:name>
+    <re:expression><![CDATA[^((https?|ftp|news):\/\/)?([a-z]([a-z0-9\-]*\.)+([a-z]{2}|aero|arpa|biz|com|coop|edu|gov|info|int|jobs|mil|museum|name|nato|net|org|pro|travel)|(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))(\/[a-z0-9_\-\.~]+)*(\/([a-z0-9_\-\.]*)(\?[a-z0-9+_\-\.%=&amp;]*)?)?(#[a-z][a-z0-9_]*)?$]]></re:expression>
+    <re:caseSensitive>1</re:caseSensitive>
+    <re:global>0</re:global>
+    <re:multiline>0</re:multiline>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,15 @@
+body,p {
+  font: normal normal 8pt arial,helvetica,sans-serif;
+  padding: 0px;
+}
+
+#title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.link {
+  color: #0000ff;
+  cursor: pointer;
+  text-decoration: underline;
+}

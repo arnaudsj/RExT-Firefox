@@ -1,0 +1,90 @@
+<!-- Main Window -->
+<!ENTITY RExT.main.title                        "Tester regulárních výrazů">
+<!ENTITY RExT.main.expression                   "Výraz">
+<!ENTITY RExT.main.save                         "Save...">
+<!ENTITY RExT.main.caseSensitive                "Rozlišovat velikost písmen">
+<!ENTITY RExT.main.global                       "Global">
+<!ENTITY RExT.main.multiline                    "Multiline">
+<!ENTITY RExT.main.replaceBy                    "Replace by">
+<!ENTITY RExT.main.test                         "Test">
+<!ENTITY RExT.main.copyRegExpToClipboard        "Zkopírovat do schránky">
+<!ENTITY RExT.main.close                        "Zavřít">
+<!ENTITY RExT.main.regularExpression            "Regulární výraz">
+<!ENTITY RExT.main.searchText                   "Hledat text">
+<!ENTITY RExT.main.result                       "Výsledek">
+<!ENTITY RExT.main.insertSavedRegExp            "Insert saved regular expression">
+<!ENTITY RExT.main.updateWhileWriting           "Obnovovat během psaní">
+
+<!-- Settings -->
+<!ENTITY RExT.settings.title                    "Možnosti Testeru regulárních výrazů">
+<!ENTITY RExT.settings.general                  "Hlavní">
+<!ENTITY RExT.settings.display                  "Display">
+<!ENTITY RExT.settings.savedRegExps             "Uložené regulární výrazy">
+<!ENTITY RExT.settings.updateWhileWriting       "Obnovovat během psaní">
+<!ENTITY RExT.settings.autoCloseBrackets        "Automatické uzavření závorek">
+<!ENTITY RExT.settings.matches                  "Matches">
+<!ENTITY RExT.settings.highlightTextColor       "Barva textu">
+<!ENTITY RExT.settings.highlightBackgroundColor "Barva pozadí">
+<!ENTITY RExT.settings.specialCharacters        "Special Characters">
+<!ENTITY RExT.settings.displayLineBreaks        "Display line breaks">
+<!ENTITY RExT.settings.displaySpaces            "Display spaces">
+<!ENTITY RExT.settings.displayTabs              "Display tabs">
+<!ENTITY RExT.settings.highlightSpecialChars    "Hightlight special characters">
+<!ENTITY RExT.settings.savedRegExpName          "Jméno">
+<!ENTITY RExT.settings.savedRegExpExpression    "Výraz">
+<!ENTITY RExT.settings.savedRegExpCaseSensitive "Závislý na velikosti písmen">
+<!ENTITY RExT.settings.savedRegExpGlobal        "Global">
+<!ENTITY RExT.settings.savedRegExpMultiline     "Multiline">
+<!ENTITY RExT.settings.savedRegExpReplaceBy     "Replace by">
+<!ENTITY RExT.settings.addRegExp                "Přidat">
+<!ENTITY RExT.settings.editRegExp               "Editovat">
+<!ENTITY RExT.settings.removeRegExp             "Odstranit">
+<!ENTITY RExT.settings.reset                    "Výchozí...">
+
+<!-- About -->
+<!ENTITY RExT.about.title                       "O rozšíření Tester regulárních výrazů">
+<!ENTITY RExT.about.version                     "Verze">
+<!ENTITY RExT.about.author                      "Autor">
+<!ENTITY RExT.about.contact                     "Kontakt">
+<!ENTITY RExT.about.translation                 "Překlad">
+<!ENTITY RExT.about.chinese                     "Čínsky">
+<!ENTITY RExT.about.czech                       "Česky">
+<!ENTITY RExT.about.dutch                       "Holandsky">
+<!ENTITY RExT.about.english                     "Anglicky">
+<!ENTITY RExT.about.french                      "French">
+<!ENTITY RExT.about.german                      "Něměcky">
+<!ENTITY RExT.about.polish                      "Polsky">
+<!ENTITY RExT.about.portuguese                  "Portuguese">
+<!ENTITY RExT.about.russian                     "Rusky">
+<!ENTITY RExT.about.spanish                     "Spanish">
+<!ENTITY RExT.about.info                        "Informace">
+<!ENTITY RExT.about.RExTHelp                    "Help for Regular Expressions Tester">
+<!ENTITY RExT.about.regExpsHelp                 "Nápověda k regulárním výrazům">
+
+<!-- Toolbar -->
+<!ENTITY RExT.toolbar.validateExpression        "Validation of regular expressions">
+
+<!-- Tooltips -->
+<!ENTITY RExT.tooltip.save                      "Opens a dialog for saving the current regular expression">
+<!ENTITY RExT.tooltip.enabled                   "Enabled">
+<!ENTITY RExT.tooltip.disabled                  "Disabled">
+<!ENTITY RExT.tooltip.example                   "Example">
+<!ENTITY RExT.tooltip.expression                "Výraz">
+<!ENTITY RExT.tooltip.replacement               "Replacement">
+<!ENTITY RExT.tooltip.result                    "Výsledek">
+<!ENTITY RExT.tooltip.caseSensitiveEnabled      "Matches the exact case">
+<!ENTITY RExT.tooltip.caseSensitiveDisabled     "Ignores the case">
+<!ENTITY RExT.tooltip.globalEnabled             "Matches all occurrences">
+<!ENTITY RExT.tooltip.globalDisabled            "Matches just the first occurrence">
+<!ENTITY RExT.tooltip.multilineEnabled          "Multiline text will be treatened as multiple lines ('^' and '$' match on every line)">
+<!ENTITY RExT.tooltip.multilineDisabled         "Multiline Text will be treatened as one big string ('^' and '$' match at the start and end of the string)">
+<!ENTITY RExT.tooltip.replacementEnabled        "Matches will be replaced by the replacement string (Backreferences $0 - $9 can be used)">
+<!ENTITY RExT.tooltip.replacementDisabled       "Matches won't be replaced">
+<!ENTITY RExT.tooltip.insertSavedRegExp         "List of saved regular expressions, which can be inserted">
+<!ENTITY RExT.tooltip.updateWhileWriting        "Toggles the automatic update of the results while writing">
+<!ENTITY RExT.tooltip.autoCloseBrackets         "Toggles the automatic closing of brackets while entering a regular expression">
+<!ENTITY RExT.tooltip.test                      "Tests the current regular expression">
+<!ENTITY RExT.tooltip.copy                      "Copies the current regular expression to the clipboard">
+<!ENTITY RExT.tooltip.close                     "Closes this window">
+<!ENTITY RExT.tooltip.duration                  "Shows the duration the current regular expression needed to be executed">
+<!ENTITY RExT.tooltip.matches                   "Shows the number of matches for the current regular expression">

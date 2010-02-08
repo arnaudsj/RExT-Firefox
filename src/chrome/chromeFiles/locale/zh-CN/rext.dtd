@@ -1,0 +1,90 @@
+<!-- Main Window -->
+<!ENTITY RExT.main.title                        "Regular Expressions Tester">
+<!ENTITY RExT.main.expression                   "表达式">
+<!ENTITY RExT.main.save                         "Save">
+<!ENTITY RExT.main.caseSensitive                "大小写注意">
+<!ENTITY RExT.main.global                       "Global">
+<!ENTITY RExT.main.multiline                    "Multiline">
+<!ENTITY RExT.main.replaceBy                    "代替">
+<!ENTITY RExT.main.test                         "测试">
+<!ENTITY RExT.main.copyRegExpToClipboard        "复制到剪切板">
+<!ENTITY RExT.main.close                        "关闭">
+<!ENTITY RExT.main.regularExpression            "规则表达式">
+<!ENTITY RExT.main.searchText                   "查找文本">
+<!ENTITY RExT.main.result                       "结果">
+<!ENTITY RExT.main.insertSavedRegExp            "Insert regular expression">
+<!ENTITY RExT.main.updateWhileWriting           "在输入的同时进行更新">
+
+<!-- Settings -->
+<!ENTITY RExT.settings.title                    "Regular Expressions Tester 的选项">
+<!ENTITY RExT.settings.general                  "一般">
+<!ENTITY RExT.settings.display                  "Display">
+<!ENTITY RExT.settings.savedRegExps             "被保存的表达式">
+<!ENTITY RExT.settings.updateWhileWriting       "在输入的同时进行更新">
+<!ENTITY RExT.settings.autoCloseBrackets        "自动写全括号">
+<!ENTITY RExT.settings.matches                  "Matches">
+<!ENTITY RExT.settings.highlightTextColor       "文本颜色">
+<!ENTITY RExT.settings.highlightBackgroundColor "背景颜色">
+<!ENTITY RExT.settings.specialCharacters        "Special Characters">
+<!ENTITY RExT.settings.displayLineBreaks        "Display line breaks">
+<!ENTITY RExT.settings.displaySpaces            "Display spaces">
+<!ENTITY RExT.settings.displayTabs              "Display tabs">
+<!ENTITY RExT.settings.highlightSpecialChars    "Hightlight special characters">
+<!ENTITY RExT.settings.savedRegExpName          "名字">
+<!ENTITY RExT.settings.savedRegExpExpression    "表达式">
+<!ENTITY RExT.settings.savedRegExpCaseSensitive "大小写注意">
+<!ENTITY RExT.settings.savedRegExpGlobal        "Global">
+<!ENTITY RExT.settings.savedRegExpMultiline     "Multiline">
+<!ENTITY RExT.settings.savedRegExpReplaceBy     "Replace by">
+<!ENTITY RExT.settings.addRegExp                "添加">
+<!ENTITY RExT.settings.editRegExp               "编辑">
+<!ENTITY RExT.settings.removeRegExp             "删除">
+<!ENTITY RExT.settings.reset                    "重新设置...">
+
+<!-- About -->
+<!ENTITY RExT.about.title                       "关于 Regular Expressions Tester">
+<!ENTITY RExT.about.version                     "版本">
+<!ENTITY RExT.about.author                      "作者">
+<!ENTITY RExT.about.contact                     "联系">
+<!ENTITY RExT.about.translation                 "翻译">
+<!ENTITY RExT.about.chinese                     "汉语">
+<!ENTITY RExT.about.czech                       "捷克语">
+<!ENTITY RExT.about.dutch                       "荷兰语">
+<!ENTITY RExT.about.english                     "英语">
+<!ENTITY RExT.about.french                      "French">
+<!ENTITY RExT.about.german                      "德语">
+<!ENTITY RExT.about.polish                      "波兰语">
+<!ENTITY RExT.about.portuguese                  "Portuguese">
+<!ENTITY RExT.about.russian                     "俄语">
+<!ENTITY RExT.about.spanish                     "Spanish">
+<!ENTITY RExT.about.info                        "信息">
+<!ENTITY RExT.about.RExTHelp                    "Help for Regular Expressions Tester">
+<!ENTITY RExT.about.regExpsHelp                 "关于规则表达式的帮助">
+
+<!-- Toolbar -->
+<!ENTITY RExT.toolbar.validateExpression        "Validation of regular expressions">
+
+<!-- Tooltips -->
+<!ENTITY RExT.tooltip.save                      "Opens a dialog for saving the current regular expression">
+<!ENTITY RExT.tooltip.enabled                   "Enabled">
+<!ENTITY RExT.tooltip.disabled                  "Disabled">
+<!ENTITY RExT.tooltip.example                   "Example">
+<!ENTITY RExT.tooltip.expression                "Expression">
+<!ENTITY RExT.tooltip.replacement               "Replacement">
+<!ENTITY RExT.tooltip.result                    "Result">
+<!ENTITY RExT.tooltip.caseSensitiveEnabled      "Matches the exact case">
+<!ENTITY RExT.tooltip.caseSensitiveDisabled     "Ignores the case">
+<!ENTITY RExT.tooltip.globalEnabled             "Matches all occurrences">
+<!ENTITY RExT.tooltip.globalDisabled            "Matches just the first occurrence">
+<!ENTITY RExT.tooltip.multilineEnabled          "Multiline text will be treatened as multiple lines ('^' and '$' match on every line)">
+<!ENTITY RExT.tooltip.multilineDisabled         "Multiline Text will be treatened as one big string ('^' and '$' match at the start and end of the string)">
+<!ENTITY RExT.tooltip.replacementEnabled        "Matches will be replaced by the replacement string (Backreferences $0 - $9 can be used)">
+<!ENTITY RExT.tooltip.replacementDisabled       "Matches won't be replaced">
+<!ENTITY RExT.tooltip.insertSavedRegExp         "List of saved regular expressions, which can be inserted">
+<!ENTITY RExT.tooltip.updateWhileWriting        "Toggles the automatic update of the results while writing">
+<!ENTITY RExT.tooltip.autoCloseBrackets         "Toggles the automatic closing of brackets while entering a regular expression">
+<!ENTITY RExT.tooltip.test                      "Tests the current regular expression">
+<!ENTITY RExT.tooltip.copy                      "Copies the current regular expression to the clipboard">
+<!ENTITY RExT.tooltip.close                     "Closes this window">
+<!ENTITY RExT.tooltip.duration                  "Shows the duration the current regular expression needed to be executed">
+<!ENTITY RExT.tooltip.matches                   "Shows the number of matches for the current regular expression">

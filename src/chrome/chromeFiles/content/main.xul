@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE window SYSTEM "chrome://rext/locale/rext.dtd">
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://rext/skin/general.css" type="text/css"?>
+<?xml-stylesheet href="chrome://rext/skin/main.css" type="text/css"?>
+<?xml-stylesheet href="chrome://rext/skin/results.css" type="text/css"?>
+<window
+  id="RExTMainWindow"
+  title="&RExT.main.title;"
+  minwidth="450"
+  minheight="500"
+  persist="screenX screenY width height"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://rext/content/general.js"/>
+  <script type="application/x-javascript" src="chrome://rext/content/main.js"/>
+  <script type="application/x-javascript" src="chrome://rext/content/savedRegExps.js"/>
+
+  <tooltip id="tooltipCaseSensitive" noautohide="true">
+    <vbox style="width:200px;">
+      <description>&RExT.tooltip.enabled;: &RExT.tooltip.caseSensitiveEnabled;</description>
+      <description>&RExT.tooltip.disabled;: &RExT.tooltip.caseSensitiveDisabled;</description>
+      <label value="&RExT.tooltip.example;:" style="font-weight:bold;" />
+      <hbox>
+        <vbox style="padding:0 3px;border-right:1px solid grey;">
+          <label value="&RExT.tooltip.disabled;" flex="1" style="text-align:center;font-style:italic;" />
+          <hbox>
+            <label value="&RExT.tooltip.expression;:" style="width:60px;" /><label value="Case|Sensitive" />
+          </hbox>
+          <hbox>
+            <label value="&RExT.tooltip.result;:" style="width:60px;" /><image src="chrome://rext/skin/tooltipCaseSensitiveDisabled.png" />
+          </hbox>
+        </vbox>
+        <vbox style="padding:0 3px;">
+          <label value="&RExT.tooltip.enabled;" flex="1" style="text-align:center;font-style:italic;" />
+          <hbox>
+            <label value="&RExT.tooltip.expression;:" style="width:60px;" /><label value="Case|Sensitive" />
+          </hbox>
+          <hbox>
+            <label value="&RExT.tooltip.result;:" style="width:60px;" /><image src="chrome://rext/skin/tooltipCaseSensitiveEnabled.png" />
+          </hbox>
+        </vbox>
+      </hbox>
+    </vbox>
+  </tooltip>
+
+  <tooltip id="tooltipGlobal" noautohide="true">
+    <vbox style="width:200px;">
+      <description>&RExT.tooltip.enabled;: &RExT.tooltip.globalEnabled;</description>
+      <description>&RExT.tooltip.disabled;: &RExT.tooltip.globalDisabled;</description>
+      <label value="&RExT.tooltip.example;:" style="font-weight:bold;" />
+      <hbox>
+        <vbox style="padding:0 3px;border-right:1px solid grey;">
+          <label value="&RExT.tooltip.disabled;" flex="1" style="text-align:center;font-style:italic;" />
+          <hbox>
+            <label value="&RExT.tooltip.expression;:" style="width:60px;" /><label value="glo|bal" />
+          </hbox>
+          <hbox>
+            <label value="&RExT.tooltip.result;:" style="width:60px;" /><image src="chrome://rext/skin/tooltipGlobalDisabled.png" />
+          </hbox>
+        </vbox>
+        <vbox style="padding:0 3px;">
+          <label value="&RExT.tooltip.enabled;" flex="1" style="text-align:center;font-style:italic;" />
+          <hbox>
+            <label value="&RExT.tooltip.expression;:" style="width:60px;" /><label value="glo|bal" />
+          </hbox>
+          <hbox>
+            <label value="&RExT.tooltip.result;:" style="width:60px;" /><image src="chrome://rext/skin/tooltipGlobalEnabled.png" />
+          </hbox>
+        </vbox>
+      </hbox>
+    </vbox>
+  </tooltip>
+
+  <tooltip id="tooltipMultiline" noautohide="true">
+    <vbox style="width:200px;">
+      <description>&RExT.tooltip.enabled;: &RExT.tooltip.multilineEnabled;</description>
+      <description>&RExT.tooltip.disabled;: &RExT.tooltip.multilineDisabled;</description>
+      <label value="&RExT.tooltip.example;:" style="font-weight:bold;" />
+      <hbox>
+        <vbox style="padding:0 3px;border-right:1px solid grey;">
+          <label value="&RExT.tooltip.disabled;" flex="1" style="text-align:center;font-style:italic;" />
+          <hbox>
+            <label value="&RExT.tooltip.expression;:" style="width:60px;" /><label value="^multiline$" />
+          </hbox>
+          <hbox>
+            <label value="&RExT.tooltip.result;:" style="width:60px;" /><image src="chrome://rext/skin/tooltipMultilineDisabled.png" />
+          </hbox>
+        </vbox>
+        <vbox style="padding:0 3px;">
+          <label value="&RExT.tooltip.enabled;" flex="1" style="text-align:center;font-style:italic;" />
+          <hbox>
+            <label value="&RExT.tooltip.expression;:" style="width:60px;" /><label value="^multiline$" />
+          </hbox>
+          <hbox>
+            <label value="&RExT.tooltip.result;:" style="width:60px;" /><image src="chrome://rext/skin/tooltipMultilineEnabled.png" />
+          </hbox>
+        </vbox>
+      </hbox>
+    </vbox>
+  </tooltip>
+
+  <tooltip id="tooltipReplacement" noautohide="true">
+    <vbox style="width:200px;">
+      <description>&RExT.tooltip.enabled;: &RExT.tooltip.replacementEnabled;</description>
+      <description>&RExT.tooltip.disabled;: &RExT.tooltip.replacementDisabled;</description>
+      <label value="&RExT.tooltip.example;:" style="font-weight:bold;" />
+      <hbox>
+        <vbox style="padding:0 3px;border-right:1px solid grey;">
+          <label value="&RExT.tooltip.disabled;" flex="1" style="text-align:center;font-style:italic;" />
+          <hbox>
+            <label value="&RExT.tooltip.expression;:" style="width:60px;" /><label value="text" />
+          </hbox>
+          <hbox>
+            <label value="&RExT.tooltip.replacement;:" style="width:60px;" /><label value="-" />
+          </hbox>
+          <hbox>
+            <label value="&RExT.tooltip.result;:" style="width:60px;" /><image src="chrome://rext/skin/tooltipReplacementDisabled.png" />
+          </hbox>
+        </vbox>
+        <vbox style="padding:0 3px;">
+          <label value="&RExT.tooltip.enabled;" flex="1" style="text-align:center;font-style:italic;" />
+          <hbox>
+            <label value="&RExT.tooltip.expression;:" style="width:60px;" /><label value="text" />
+          </hbox>
+          <hbox>
+            <label value="&RExT.tooltip.replacement;:" style="width:60px;" /><label value="replacement $0" />
+          </hbox>
+          <hbox>
+            <label value="&RExT.tooltip.result;:" style="width:60px;" /><image src="chrome://rext/skin/tooltipReplacementEnabled.png" />
+          </hbox>
+        </vbox>
+      </hbox>
+    </vbox>
+  </tooltip>
+
+  <groupbox align="center" valign="middle" orient="horizontal">
+    <caption label="&RExT.main.regularExpression;" />
+    <vbox flex="1">
+      <hbox align="center">
+        <textbox id="regExp" flex="1" multiline="true" minheight="5" wordwrap="true"/>
+      </hbox>
+      <hbox align="center">
+        <checkbox id="caseSensitive" label="&RExT.main.caseSensitive;" tooltip="tooltipCaseSensitive" />
+        <checkbox id="global" label="&RExT.main.global;" tooltip="tooltipGlobal" />
+        <checkbox id="multiline" label="&RExT.main.multiline;" tooltip="tooltipMultiline" />
+        <vbox align="right" flex="1"><button label="&RExT.main.save;" id="saveRegExp" tooltiptext="&RExT.tooltip.save;"/></vbox>
+      </hbox>
+      <hbox align="center">
+        <checkbox id="replace" label="&RExT.main.replaceBy;" />
+        <textbox id="replacement" flex="1" tooltip="tooltipReplacement"  style="font-family :'Courier New'; font-size :1.2em;"/>
+      </hbox>
+    </vbox>
+  </groupbox>
+  <groupbox flex="1">
+    <caption label="&RExT.main.searchText;" />
+    <textbox id="searchText" multiline="true" minheight="20" flex="1"  style="font-family :'Courier New'; font-size :1.2em;"/>
+  </groupbox>
+  <groupbox flex="1">
+    <caption label="&RExT.main.result;" />
+    <iframe id="results" type="content-primary" src="chrome://RExT/content/blank.htm" minheight="20" flex="1"  style="html,body,p {font-family :'Courier New'; font-size :1.2em;}"/>
+  </groupbox>
+  <hbox align="right" valign="middle">
+    <label control="savedRegExps" value="&RExT.main.insertSavedRegExp;" />
+    <menulist id="savedRegExps" label="" datasources="chrome://rext/content/savedRegExps.rdf" ref="http://sebastianzartner.de/savedRegExps#" tooltiptext="&RExT.tooltip.insertSavedRegExp;">
+      <template>
+        <rule>
+          <menupopup>
+            <menuitem uri="rdf:*" label="rdf:http://sebastianzartner.de/RExT/name" value="rdf:http://sebastianzartner.de/RExT/name" />
+          </menupopup>
+        </rule>
+      </template>
+    </menulist>
+  </hbox>
+  <hbox align="center">
+    <hbox flex="1">
+      <checkbox id="updateWhileWriting" label="&RExT.main.updateWhileWriting;" tooltiptext="&RExT.tooltip.updateWhileWriting;" />
+    </hbox>
+    <hbox align="right" flex="1">
+      <button label="&RExT.main.test;" id="test" tooltiptext="&RExT.tooltip.test;" />
+      <button label="&RExT.main.copyRegExpToClipboard;" id="copyRegExpToClipboard" tooltiptext="&RExT.tooltip.copy;" />
+      <button label="&RExT.main.close;" id="close" tooltiptext="&RExT.tooltip.close;" />
+    </hbox>
+  </hbox>
+
+  <statusbar id="information">
+    <statusbarpanel id="duration" flex="1" tooltiptext="&RExT.tooltip.duration;" />
+    <statusbarpanel id="matches" flex="1" tooltiptext="&RExT.tooltip.matches;" />
+  </statusbar>
+</window>

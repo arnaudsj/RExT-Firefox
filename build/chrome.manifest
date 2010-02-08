@@ -1,0 +1,20 @@
+content rext jar:chrome/rext.jar!/chrome/chromeFiles/content/
+
+skin rext classic jar:chrome/rext.jar!/chrome/chromeFiles/skin/classic/
+
+style    chrome://browser/content/browser.xul  chrome://rext/skin/overlay.css
+style    chrome://global/content/customizeToolbar.xul  chrome://rext/skin/overlay.css
+
+overlay  chrome://browser/content/browser.xul  chrome://rext/content/overlay.xul
+
+locale rext cs-CZ jar:chrome/rext.jar!/chrome/chromeFiles/locale/cs-CZ/
+locale rext de-DE jar:chrome/rext.jar!/chrome/chromeFiles/locale/de-DE/
+locale rext fr-FR jar:chrome/rext.jar!/chrome/chromeFiles/locale/fr-FR/
+locale rext en-US jar:chrome/rext.jar!/chrome/chromeFiles/locale/en-US/
+locale rext es-ES jar:chrome/rext.jar!/chrome/chromeFiles/locale/es-ES/
+locale rext nl-NL jar:chrome/rext.jar!/chrome/chromeFiles/locale/nl-NL/
+locale rext pl-PL jar:chrome/rext.jar!/chrome/chromeFiles/locale/pl-PL/
+locale rext pt-BR jar:chrome/rext.jar!/chrome/chromeFiles/locale/pt-BR/
+locale rext ru-RU jar:chrome/rext.jar!/chrome/chromeFiles/locale/ru-RU/
+locale rext zh-CN jar:chrome/rext.jar!/chrome/chromeFiles/locale/zh-CN/
+

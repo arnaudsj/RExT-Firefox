@@ -1,0 +1,90 @@
+<!-- Main Window -->
+<!ENTITY RExT.main.title                        "Regular Expressions Tester">
+<!ENTITY RExT.main.expression                   "Expressão">
+<!ENTITY RExT.main.save                         "Salvar">
+<!ENTITY RExT.main.caseSensitive                "Diferenciar maiúsculas e minúsculas">
+<!ENTITY RExT.main.global                       "Global">
+<!ENTITY RExT.main.multiline                    "Várias linhas">
+<!ENTITY RExT.main.replaceBy                    "Substituir por">
+<!ENTITY RExT.main.test                         "Testar">
+<!ENTITY RExT.main.copyRegExpToClipboard        "Copiar">
+<!ENTITY RExT.main.close                        "Fechar">
+<!ENTITY RExT.main.regularExpression            "Expressão Regular">
+<!ENTITY RExT.main.searchText                   "Procurar texto">
+<!ENTITY RExT.main.result                       "Resultado">
+<!ENTITY RExT.main.insertSavedRegExp            "Inserir expressão regular salva">
+<!ENTITY RExT.main.updateWhileWriting           "Atualizar durante a escrita">
+
+<!-- Settings -->
+<!ENTITY RExT.settings.title                    "OpçÕes do Regular Expressions Tester">
+<!ENTITY RExT.settings.general                  "Geral">
+<!ENTITY RExT.settings.display                  "Mostrar">
+<!ENTITY RExT.settings.savedRegExps             "Expressão salva">
+<!ENTITY RExT.settings.updateWhileWriting       "Atualizar durante a escrita">
+<!ENTITY RExT.settings.autoCloseBrackets        "Fechar parênteses automaticamente">
+<!ENTITY RExT.settings.matches                  "Acertos">
+<!ENTITY RExT.settings.highlightTextColor       "Cor da fonte">
+<!ENTITY RExT.settings.highlightBackgroundColor "Cor de fundo">
+<!ENTITY RExT.settings.specialCharacters        "Caracteres especiais">
+<!ENTITY RExT.settings.displayLineBreaks        "Mostrar quebra de linha">
+<!ENTITY RExT.settings.displaySpaces            "Mostrar espaços">
+<!ENTITY RExT.settings.displayTabs              "Mostrar tabulação">
+<!ENTITY RExT.settings.highlightSpecialChars    "Destacar caracteres especiais">
+<!ENTITY RExT.settings.savedRegExpName          "Nome">
+<!ENTITY RExT.settings.savedRegExpExpression    "Expressão">
+<!ENTITY RExT.settings.savedRegExpCaseSensitive "Diferenciar maiúsculas e minúsculas">
+<!ENTITY RExT.settings.savedRegExpGlobal        "Global">
+<!ENTITY RExT.settings.savedRegExpMultiline     "Várias linhas">
+<!ENTITY RExT.settings.savedRegExpReplaceBy     "Substituir por">
+<!ENTITY RExT.settings.addRegExp                "Adicionar">
+<!ENTITY RExT.settings.editRegExp               "Editar">
+<!ENTITY RExT.settings.removeRegExp             "Remover">
+<!ENTITY RExT.settings.reset                    "Resetar...">
+
+<!-- About -->
+<!ENTITY RExT.about.title                       "Sobre Regular Expressions Tester">
+<!ENTITY RExT.about.version                     "Versão">
+<!ENTITY RExT.about.author                      "Autor">
+<!ENTITY RExT.about.contact                     "Contato">
+<!ENTITY RExT.about.translation                 "Tradução">
+<!ENTITY RExT.about.chinese                     "Chines">
+<!ENTITY RExT.about.czech                       "Tcheco">
+<!ENTITY RExT.about.dutch                       "Holandês">
+<!ENTITY RExT.about.english                     "Inglês">
+<!ENTITY RExT.about.french                      "Francês">
+<!ENTITY RExT.about.german                      "Alemão">
+<!ENTITY RExT.about.polish                      "Polonês">
+<!ENTITY RExT.about.portuguese                  "Português">
+<!ENTITY RExT.about.russian                     "Russo">
+<!ENTITY RExT.about.spanish                     "Espanhol">
+<!ENTITY RExT.about.info                        "Informações">
+<!ENTITY RExT.about.RExTHelp                    "Ajuda sobre Regular Expressions Tester">
+<!ENTITY RExT.about.regExpsHelp                 "Ajuda sobre expressões regulares">
+
+<!-- Toolbar -->
+<!ENTITY RExT.toolbar.validateExpression        "Validação da expressão regular">
+
+<!-- Tooltips -->
+<!ENTITY RExT.tooltip.save                      "Opens a dialog for saving the current regular expression">
+<!ENTITY RExT.tooltip.enabled                   "Enabled">
+<!ENTITY RExT.tooltip.disabled                  "Disabled">
+<!ENTITY RExT.tooltip.example                   "Example">
+<!ENTITY RExT.tooltip.expression                "Expression">
+<!ENTITY RExT.tooltip.replacement               "Replacement">
+<!ENTITY RExT.tooltip.result                    "Result">
+<!ENTITY RExT.tooltip.caseSensitiveEnabled      "Matches the exact case">
+<!ENTITY RExT.tooltip.caseSensitiveDisabled     "Ignores the case">
+<!ENTITY RExT.tooltip.globalEnabled             "Matches all occurrences">
+<!ENTITY RExT.tooltip.globalDisabled            "Matches just the first occurrence">
+<!ENTITY RExT.tooltip.multilineEnabled          "Multiline text will be treatened as multiple lines ('^' and '$' match on every line)">
+<!ENTITY RExT.tooltip.multilineDisabled         "Multiline Text will be treatened as one big string ('^' and '$' match at the start and end of the string)">
+<!ENTITY RExT.tooltip.replacementEnabled        "Matches will be replaced by the replacement string (Backreferences $0 - $9 can be used)">
+<!ENTITY RExT.tooltip.replacementDisabled       "Matches won't be replaced">
+<!ENTITY RExT.tooltip.insertSavedRegExp         "List of saved regular expressions, which can be inserted">
+<!ENTITY RExT.tooltip.updateWhileWriting        "Toggles the automatic update of the results while writing">
+<!ENTITY RExT.tooltip.autoCloseBrackets         "Toggles the automatic closing of brackets while entering a regular expression">
+<!ENTITY RExT.tooltip.test                      "Tests the current regular expression">
+<!ENTITY RExT.tooltip.copy                      "Copies the current regular expression to the clipboard">
+<!ENTITY RExT.tooltip.close                     "Closes this window">
+<!ENTITY RExT.tooltip.duration                  "Shows the duration the current regular expression needed to be executed">
+<!ENTITY RExT.tooltip.matches                   "Shows the number of matches for the current regular expression">
